@@ -1,9 +1,21 @@
-var swim = document.getElementByid("swim")
-var listen = document.getElementById("listen")
-var read = document.getElementById("read")
-var watch = document.getElementById("watch")
-var hung = document.getElementById("hung")
-var savebtn = document.getElementById("save")
+const firstnameinput = document.getElementById("firstname")
+const savebtn = document.getElementById("save")
+const listitems = document.getElementById("toDolist")
+
+const getElementValue = (element) => {
+    return element.value
+}
+
+savebtn.addEventListener("click",(Event) => {
+    Event.preventDefault()
 
 
-const getElementValue = (element)
+const FirstNameValue = getElementValue(FirstnameInput)
+
+const list = document.createElement("ol")
+
+const firstNameli = document.createElement("li")
+firstNameli . innerHTML = FirstNameValue
+list . appendChild (firstNameli)
+
+})
