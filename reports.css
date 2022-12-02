@@ -1,0 +1,41 @@
+.liststat-items{
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid coral;
+    vertical-align: middle;
+    flex-shrink: 1;
+}
+
+
+.maindiv{
+    margin-left: 10%;
+}
+.language{
+    margin-left: 80%;
+}
+.container{
+    background-color:beige;    
+}
+.maincontainer{
+    margin-left:10%
+}
+h1{ 
+    margin-left:auto
+}
+
+.keyfacts{
+    background-color:azure;
+    font-family:sans-serif
+    font-size: small;
+    margin-right: 50%;
+
+}
+.currentsituation{
+    margin-right: 50%;
+    font-size: small;
+}
+h2{
+    margin-left: 10%;
+}
